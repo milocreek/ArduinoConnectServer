@@ -145,7 +145,9 @@ void setup()
   
   Serial.begin(9600);           // set up Serial library at 9600 bps
   
-  Serial.println(F("ArduinoConnect Server 1.5 08/06/13")); 
+  Serial.print(F("ArduinoConnectServer "));
+  Serial.print(VERSIONNUMBER);
+  Serial.println(F(" 08/23/13")); 
   Serial.print(F("Compiled at:"));
   Serial.print (F(__TIME__));
   Serial.print(F(" "));

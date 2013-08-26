@@ -1,5 +1,5 @@
 // Filename: Config.h
-// Version 1.5 08/06/13 BP MiloCreek
+// Version 1.6 08/06/13 BP MiloCreek
 
 // your local function include file
 // ----------
